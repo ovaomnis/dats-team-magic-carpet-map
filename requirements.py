@@ -1,0 +1,15 @@
+annotated-types==0.7.0
+certifi==2024.8.30
+charset-normalizer==3.4.0
+evdev==1.7.1
+idna==3.10
+pydantic==2.9.2
+pydantic_core==2.23.4
+pygame==2.6.1
+pynput==1.7.7
+python-dotenv==1.0.1
+python-xlib==0.33
+requests==2.32.3
+six==1.16.0
+typing_extensions==4.12.2
+urllib3==2.2.3
