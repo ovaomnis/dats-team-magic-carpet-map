@@ -18,7 +18,7 @@ def move(data: list[CommandPlayer]) -> ViewPlayer:
     response = requests.post(host + 'play/magcarp/player/move', headers={
         'X-Auth-Token': token
     }, json={
-        'transports': data
+        'transports': [t.model_dump() for t in data]
     })
 
     return ViewPlayer.model_validate(response.json())
